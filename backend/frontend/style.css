@@ -1,0 +1,42 @@
+.container{
+    width: 60%;
+    margin:auto;
+    border: 2px solid black;
+    height: 600px;
+    background-color: aquamarine;
+    overflow-y: auto;
+}
+.messageleft{
+    border-radius: 5px;
+    border:3px solid black;
+    float: left;
+    margin:10px;
+    clear: both;
+    background-color: black;
+    color:white;
+
+}
+.messageright{
+    border-radius: 5px;
+    border:3px solid black;
+    float: right;
+    margin:10px;
+    clear: both;
+    background-color: black;
+    color:white;
+
+}
+.send-data{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 985px;
+    
+}
+
+#messageinp{
+    width: 70%;
+    border-radius: 5px;
+    height: 25px;
+}
